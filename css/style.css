@@ -107,3 +107,33 @@ header{
   border-radius: 5px;
 }
 
+/*About me*/
+
+.about-me{
+  margin: 130px 200px;
+  text-align: center;
+  background: #FFF8F3;
+  border-radius: 10px;
+}
+
+.about-me-title{
+  font-weight: 700;
+  font-size: 35px;
+  padding-top: 130px;
+  padding-bottom: 30px;
+  color: #181818;
+}
+
+.about-me-description{
+  padding: 0 150px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #757575;
+}
+
+.about-info{
+  padding: 30px 150px 130px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
