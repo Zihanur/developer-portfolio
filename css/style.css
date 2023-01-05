@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+/*Nav*/
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 200px;
+}
+
+.nav-title{
+  font-weight: 800;
+  font-size: 45px;
+}
+
+nav h3 span{
+  color: #FD6E0A;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar li{
+  list-style: none;
+  margin-left: 30px;
+}
+
+.nav-bar li a{
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+
+}
+
+.nav-bar li button{
+  padding: 12px 25px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #FD6E0A;
+  border: 0;
+}
+
+ /*Header information */
+header{
+  background-image: url(../images/header_bg.png),url(../images/developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+
+ .header-info{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 200px;
+  
+}
+
+.header-title{
+  font-weight: 600;
+  font-size: 35px;
+  color: #474747;
+}
+
+.header-info-name{
+  font-weight: 700;
+  font-size: 75px;
+  color: #181818;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.header-description{
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+#header-info-btn{
+  display:inline;
+}
+
+
+.btn-download{
+  padding: 10px 15px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: #FD6E0A;
+  border: 0;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.btn-contact{
+  background-color: #FFFFFF;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 10px 15px;
+  color: #FD6E0A;
+  border: 1px solid #FD6E0A;
+  border-radius: 5px;
+}
+
